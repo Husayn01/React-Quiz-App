@@ -42,6 +42,7 @@ html, body, .App{
     color: #fff;
     border: none;
     margin-top: 2rem;
+
     margin-left: 1rem;
 }
 .home .btn:hover,.category .btn:hover, .guide .btn:hover{
@@ -76,6 +77,9 @@ html, body, .App{
 .guide ul{
     list-style-type: lower-roman;
 }
+.guide .btn-start{
+    margin-bottom:2rem;
+    }
 .quiz .header{
     margin-bottom: 1rem !important;
 }
