@@ -17,7 +17,7 @@ function Root() {
             <h1>Quiz Mag</h1>
             <p>Challenge yourself, test your knowledge</p>
             </div>
-            <Link className="btn btn-continue" to={'#/category'}>Continue</Link>
+            <Link className="btn btn-continue" to={'category'}>Continue</Link>
             <div className="attribution">
             <p>Developed by Husayn</p>
             <a href="https://www.github.com/Husayn01"><i class="fab fa-github"></i></a>
