@@ -1,27 +1,26 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createHashRouter, RouterProvider} from 'react-router-dom'
 import './index.css'
 import Root from './routes/Root'
 import Category from './routes/Category'
 import Guide from './routes/Guide'
 import Quiz from './routes/Quiz'
-
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path:'/',
     element: <Root />,
   },
   {
-    path:'category',
+    path:'/category',
     element: <Category />,
   },
   {
-    path:'guide',
+    path:'/guide',
     element: <Guide />,
   },
   {
-    path:'quiz',
+    path:'/quiz',
     element: <Quiz />,
   }
 ]);
